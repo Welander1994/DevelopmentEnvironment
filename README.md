@@ -1,4 +1,5 @@
 [![codecov](https://codecov.io/gh/Welander1994/DevelopmentEnvironment/branch/main/graph/badge.svg?token=jFPhxPEehl)](https://codecov.io/gh/Welander1994/DevelopmentEnvironment)
+
 ![Image](https://codecov.io/gh/Welander1994/DevelopmentEnvironment/branch/main/graphs/sunburst.svg?token=jFPhxPEehl)
 
 # todo-list
