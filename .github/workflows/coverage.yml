@@ -1,0 +1,18 @@
+name: Run Unit Tests
+run-name: Coverage 🔧
+"on": push
+jobs:
+  unit_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Vitest
+      - run:  npm install
+              npm run test 
+
+      - name: Upload coverage reports to Codecov
+      - run:  npm install
+              npm run coverage
+        uses: codecov/codecov-action@v3
+  

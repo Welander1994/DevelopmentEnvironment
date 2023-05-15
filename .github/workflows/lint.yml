@@ -1,3 +1,6 @@
+name: Eslint
+run-name: Esling 🔌
+
 on:
   push:
   pull_request:

@@ -1,4 +1,5 @@
 name: Qodana Scan
+run-name: Qodana 🔎
 
 on:
   push:
