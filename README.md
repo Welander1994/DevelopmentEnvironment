@@ -1,30 +1,15 @@
-# Todos App
+# todo-list
 
-### 🚀 Live Demo: https://todo-app-startagent.it
+A simple todo list app built with Vue.js and vite.
 
-<br>
+demo: https://todo-list.mszook.art/
 
-## Project setup
 
-```
-npm install
-```
+## Preview
 
-### Compiles and hot-reloads for development
+![prev](/img/prev.png)
 
-```
-npm run serve
-```
+## How to use
 
-### Compiles and minifies for production
+Input todo item and press enter to add it to the list. Click on the todo item to mark it as completed. Click on the trash icon to delete the todo item.
 
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-# DevelopmentEnvironment
