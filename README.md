@@ -1,5 +1,8 @@
 [![codecov](https://codecov.io/gh/Welander1994/DevelopmentEnvironment/branch/main/graph/badge.svg?token=jFPhxPEehl)](https://codecov.io/gh/Welander1994/DevelopmentEnvironment)
 
+### SVG of Codecove
+![Image](https://codecov.io/gh/Welander1994/DevelopmentEnvironment/branch/main/graphs/sunburst.svg?token=jFPhxPEehl)
+
 # todo-list
 
 A simple todo list app built with Vue.js and vite.
