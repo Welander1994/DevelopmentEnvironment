@@ -1,0 +1,20 @@
+name: Qodana Scan
+
+on:
+  push:
+    branches:
+      - qodana
+
+jobs:
+  qodana-scan:
+    runs-on: ubuntu-latest
+    name: Run Qodana Scan
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Qodana Scan
+        uses: JetBrains/qodana-action@main
+        env:
+          QODANA_TOKEN: ${{ secrets.QODANA }}
+        with:
+          exclude: Eslint,CommaExpressionJS
