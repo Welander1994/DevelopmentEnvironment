@@ -18,3 +18,4 @@ jobs:
           QODANA_TOKEN: ${{ secrets.QODANA }}
         with:
           exclude: Eslint,CommaExpressionJS
+          
